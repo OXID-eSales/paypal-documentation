@@ -127,10 +127,11 @@ todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '5.2 DE',
-    'versions':
-        [('5.2 DE', 'https://docs.oxid-esales.com/oepaypal/de/5.2/'),
-         ('5.2 EN', 'https://docs.oxid-esales.com/oepaypal/en/5.2/')],
+    'current_version': '5.2',
+#    'versions':
+#        [('5.2 DE', 'https://docs.oxid-esales.com/oepaypal/de/5.2/'),
+#         ('5.2 EN', 'https://docs.oxid-esales.com/oepaypal/en/5.2/')],
+# ToDo Pfade zur PayPal-Dokumentation
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
