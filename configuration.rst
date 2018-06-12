@@ -21,8 +21,8 @@ Go to :menuselection:`Extensions --> Modules` in the admin panel of the shop and
 .. image:: media/screenshots-en/oxdaag01.png
     :alt: PayPal, module settings
     :class: with-shadow
-        :height: 344
-        :width: 650
+    :height: 344
+    :width: 650
 
 PayPal integration
 ^^^^^^^^^^^^^^^^^^
