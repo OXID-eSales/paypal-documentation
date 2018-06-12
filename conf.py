@@ -137,7 +137,8 @@ html_context = {
     'show_sphinx': False,
     'display_github': False,
     # Set the following variables to generate the resulting github URL for each page.
-    # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
+    # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
+# ToDo Pfade zum GitHub-Repository
     'github_user': 'OXID-eSales',
     'github_repo': '',
     'github_version': ''

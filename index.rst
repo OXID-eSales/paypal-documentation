@@ -1,13 +1,13 @@
-Moduldokumentation
-==================
+Module documentation
+====================
 
 .. toctree::
    :maxdepth: 1
    :caption: PayPal
 
-   Einführung <einfuehrung>
+   Introduction <introduction>
    Installation <installation>
-   Konfiguration <konfiguration>
-   Funktionsbeschreibung <funktionsbeschreibung>
+   Configuration <configuration>
+   Functional description <functional-description>
 
 .. |Home| image:: media/icons/home.png

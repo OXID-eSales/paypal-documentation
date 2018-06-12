@@ -1,63 +1,65 @@
 Installation
 ============
 
-Dieses Dokument beschreibt die Installation des Moduls PayPal für den OXID eShop Version 6.0.
+In this chapter, the installation of the PayPal module for the OXID eShop versions 6.0 is described.
 
-Systemvoraussetzungen
----------------------
-Für die Verwendung des Moduls PayPal sind unten stehende Systemvoraussetzungen notwendig. Darüber hinaus funktioniert das Modul PayPal nur, wenn der OXID eShop für den SSL-Modus konfiguriert wurde.
+System requirements
+-------------------
+The system requirements given below apply to the PayPal module. In addition, the PayPal module only works if the OXID eShop was configured for SSL mode.
 
-* PHP 5.6 und höher
-* URL
+* PHP 5.6 or higher
+* cURL
 * OpenSSL
 
-.. |schritt| image:: media/icons/schritt.jpg
+.. |step| image:: media/icons/schritt.jpg
 
 --------------------------------------------------
 
-Neu-Installation
+New installation
 ----------------
-Wurde der Shop als OXID eShop Compilation aufgesetzt, ist die passende Version des Moduls PayPal bereits integriert. Sie muss lediglich im Administrationsbereich des Shops aktiviert und konfiguriert werden.
+If the shop was set up as an OXID eShop Compilation, the matching version of OXID eFire Extension PayPal is already integrated. It simply has to be activated and configured via the admin panel.
 
-|schritt| Modul PayPal installieren
+|step| Installing the PayPal module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Für den Fall, dass das Modul manuell in den Shop integriert werden muss, wird das Modul aus dem Repository heruntergeladen und installiert. Dazu wird per Konsole folgendes Composer-Kommando im Hauptverzeichnis des Shops ausgeführt:
+# ToDo: Übersetzung prüfen
+
+In case that the module has to be manually integrated into the shop it has to be downloaded from the repository and installed. Therefore the following Composer command is used in the shell opened in the root directory of the shop:
 
 .. code:: bash
 
   composer require oxid-esales/paypal-module:^5.0.0
 
-|schritt| Berechtigung für das Logging setzen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Ändern Sie die Schreibrechte von :file:`/modules/oe/oepaypal/logs`. Geben Sie volle Schreibrechte für Besitzer, Gruppe und öffentlich (755 oder 777).
+|step| Setting permissions for the logging
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Change the write permission of :file:`/modules/oe/oepaypal/logs`. Grant full write permission for owner, group and public (755 or 777).
 
-|schritt| Modul PayPal aktivieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das Modul PayPal muss im Shop aktiviert werden. In der Registerkarte :guilabel:`Stamm` des Moduls drücken Sie auf die Schaltfläche :guilabel:`Aktivieren`.
+|step| Activating the module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The PayPal module has to be activated in the shop. In the :guilabel:`Overview` tab of the module, click the :guilabel:`Activate` button.
 
-|schritt| Temporäre Dateien löschen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Löschen Sie alle Dateien und Ordner außer der :file:`.htaccess` aus dem Verzeichnis :file:`/tmp` des Shops.
+|step| Deleting temporary files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Delete all files and folders except for :file:`.htaccess` from the :file:`/tmp` folder of your shop.
 
 --------------------------------------------------
 
-Update-Installation
+Update installation
 -------------------
 
-|schritt| Moduldateien löschen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Falls Sie das Modul PayPal separat aktualisieren müssen, löschen Sie alle Dateien und Verzeichnisse in :file:`/source/modules/oe/oepaypal`.
+|step| Deleting module files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+In case you have to update the module separately delete all files and folders in :file:`/source/modules/oe/oepaypal`.
 
-|schritt| Modul PayPal installieren
+|step| Installing the PayPal module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Installieren Sie das aktuelle Modul mit folgendem Composer-Kommando, welches Sie per Konsole im Hauptverzeichnis des Shops ausführen:
+Install the current module using the following Composer command in the shell which was opened in the root directory of the shop:
 
 .. code:: bash
 
   composer require oxid-esales/paypal-module:^5.0.0
 
-|schritt| Update abschließen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Schließen Sie das Update ab, indem Sie - wie bei Neu-Installation beschrieben - die Berechtigung für das Logging setzen, das Modul im Administrationsbereich aktivieren und die temporären Dateien des Shop löschen.
+|step| Finishing update
+^^^^^^^^^^^^^^^^^^^^^^^
+Finish the update installation - like it is described below - by setting the permissions for the logging, activating the module in the admin area and deleting the temporary files.
 
-.. Intern: oxdaab, Status:
+.. Intern: oxdaaf, Status:
