@@ -56,6 +56,4 @@ Um die Zahlungsart PayPal beim Aufbau des Onlineshops intensiv testen zu können
 
 Sollten einmal Probleme auftauchen, kann für eine intensive Fehlersuche das Logging eingeschaltet werden.
 
-.. hint:: **Änderungen an PayPal-Logos**: PayPal schreibt vor, dass die entsprechenden Logos von PayPal im Shop benutzt werden müssen. Solange Änderungen im Rahmen der Integrationsrichtlinien von PayPal bleiben, können diese nach Belieben durchgeführt werden. Mehr Informationen dazu auf den englischsprachigen Seiten für PayPal-Entwickler `Customize the PayPal button <https://developer.paypal.com/docs/integration/direct/express-checkout/integration-jsv4/customize-button/>`_.
-
 .. Intern: oxdaac, Status:

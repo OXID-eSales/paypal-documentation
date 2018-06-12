@@ -56,7 +56,7 @@ Nach Abschluss der Bestellung findet die Bezahlung statt. Abhängig von der Konf
 
 PayPal bei der Bestellung
 -------------------------
-Wurden die Artikel mit PayPal bezahlt, werden im Administrationsbereich auf der Registerkarte PayPal der Bestellung Zahlungsinformationen, eine PayPal-Historie und eine Übersicht der bestellten Artikel angezeigt.
+Wurden die Artikel mit PayPal bezahlt, werden im Administrationsbereich auf der Registerkarte :guilabel:`PayPal` der Bestellung Zahlungsinformationen, eine PayPal-Historie und eine Übersicht der bestellten Artikel angezeigt.
 
 .. image:: media/screenshots-de/oxdaad06.png
     :alt: Bestellungen, Registerkarte "PayPal"
