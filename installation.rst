@@ -29,7 +29,7 @@ In case that the module has to be manually integrated into the shop, it has to b
 
 |step| Setting permissions for the logging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Change the permission of :file:`/modules/oe/oepaypal/logs`. Grant full write permission for owner, group and public (755 or 777).
+Change the permission of :file:`/modules/oe/oepaypal/logs`. Grant full write permission for owner and group (755 or 777).
 
 |step| Activating the module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
