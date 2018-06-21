@@ -5,7 +5,7 @@ In this chapter, the installation of the PayPal module for the OXID eShop versio
 
 System requirements
 -------------------
-The system requirements given below apply to the PayPal module. In addition, the PayPal module only works if the OXID eShop was configured for SSL mode.
+The system requirements given below apply to the PayPal module. In addition, the PayPal module only works if OXID eShop was configured for SSL mode.
 
 * PHP 5.6 or higher
 * cURL
@@ -17,13 +17,11 @@ The system requirements given below apply to the PayPal module. In addition, the
 
 New installation
 ----------------
-If the shop was set up as an OXID eShop Compilation, the matching version of OXID eFire Extension PayPal is already integrated. It simply has to be activated and configured via the admin panel.
+If the shop was set up as OXID eShop Compilation, the matching version of the PayPal module is already integrated. It simply has to be activated and configured via the admin panel.
 
 |step| Installing the PayPal module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-# ToDo: Übersetzung prüfen
-
-In case that the module has to be manually integrated into the shop it has to be downloaded from the repository and installed. Therefore the following Composer command is used in the shell opened in the root directory of the shop:
+In case that the module has to be manually integrated into the shop, it has to be downloaded from the repository and installed. Therefore, the following Composer command has to be used on the command line at the root directory of the shop:
 
 .. code:: bash
 
@@ -31,7 +29,7 @@ In case that the module has to be manually integrated into the shop it has to be
 
 |step| Setting permissions for the logging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Change the write permission of :file:`/modules/oe/oepaypal/logs`. Grant full write permission for owner, group and public (755 or 777).
+Change the permission of :file:`/modules/oe/oepaypal/logs`. Grant full write permission for owner, group and public (755 or 777).
 
 |step| Activating the module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -48,11 +46,11 @@ Update installation
 
 |step| Deleting module files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In case you have to update the module separately delete all files and folders in :file:`/source/modules/oe/oepaypal`.
+In case you have to update the module separately, delete all files and folders in :file:`/source/modules/oe/oepaypal`.
 
 |step| Installing the PayPal module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Install the current module using the following Composer command in the shell which was opened in the root directory of the shop:
+Install the current module using the following Composer command on the command line at the root directory of the shop:
 
 .. code:: bash
 
@@ -60,6 +58,6 @@ Install the current module using the following Composer command in the shell whi
 
 |step| Finishing update
 ^^^^^^^^^^^^^^^^^^^^^^^
-Finish the update installation - like it is described below - by setting the permissions for the logging, activating the module in the admin area and deleting the temporary files.
+Finish the update installation (like described above) by setting the permissions for the logging, activating the module in the admin panel and by deleting the temporary files.
 
 .. Intern: oxdaaf, Status:
