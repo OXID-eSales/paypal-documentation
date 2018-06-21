@@ -136,12 +136,12 @@ html_context = {
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
-    'display_github': False,
+    'display_github': True,
     # Set the following variables to generate the resulting github URL for each page.
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
-    'github_repo': '',
-    'github_version': ''
+    'github_repo': 'paypal-documentation',
+    'github_version': '5.2-de'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
