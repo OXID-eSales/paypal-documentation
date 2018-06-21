@@ -29,7 +29,7 @@ Für den Fall, dass das Modul manuell in den Shop integriert werden muss, wird d
 
 |schritt| Berechtigung für das Logging setzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Ändern Sie die Schreibrechte von :file:`/modules/oe/oepaypal/logs`. Geben Sie volle Schreibrechte für Besitzer, Gruppe und öffentlich (755 oder 777).
+Ändern Sie die Schreibrechte von :file:`/modules/oe/oepaypal/logs`. Geben Sie volle Schreibrechte für Besitzer und Gruppe (755 oder 777).
 
 |schritt| Modul PayPal aktivieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
