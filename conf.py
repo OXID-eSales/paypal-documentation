@@ -127,7 +127,7 @@ todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '5.2 DE',
+    'current_version': '5.2',
     'versions':
         [('5.2', 'https://docs.oxid-esales.com/module/de/5.2/')],
     'languages':
