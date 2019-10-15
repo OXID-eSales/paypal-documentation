@@ -291,7 +291,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OXIDeShop6.tex', 'OXID eShop 6 Documentation',
+    (master_doc, 'PayPal.tex', 'PayPal Moduldokumentation',
      'OXID eSales AG', 'manual'),
 ]
 
@@ -327,7 +327,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'oxideshop6', 'OXID eShop 6 Documentation',
+    (master_doc, 'PayPal', 'PayPal Moduldokumentation',
      [author], 1)
 ]
 
@@ -342,8 +342,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OXIDeShop6', 'OXID eShop 6 Documentation',
-     author, 'OXIDeShop6', 'One line description of project.',
+    (master_doc, 'PayPal', 'PayPal Moduldokumentation',
+     author, 'PayPal', 'One line description of project.',
      'Miscellaneous'),
 ]
 
