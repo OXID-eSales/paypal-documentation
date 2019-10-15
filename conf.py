@@ -129,7 +129,8 @@ html_theme = 'sphinx_rtd_theme'
 html_context = {
     'current_version': '5.2',
     'versions':
-        [('5.2', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/')],
+        [('5.2', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/'),
+         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/')],
     'languages':
         [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/'),
          ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/5.2/')],
