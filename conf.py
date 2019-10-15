@@ -71,7 +71,7 @@ release = '5'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'de'
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -157,7 +157,7 @@ html_theme_path = ['_themes']
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-html_title = 'PayPal | Moduldokumentation'
+html_title = 'PayPal | Module documentation'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -257,7 +257,7 @@ html_show_sphinx = False
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OXIDeShopB2Bdoc'
+htmlhelp_basename = 'PayPaldoc'
 
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
 rst_epilog = """
@@ -291,7 +291,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'OXIDeShop6.tex', 'OXID eShop 6 Documentation',
+    (master_doc, 'PayPal.tex', 'PayPal module documentation',
      'OXID eSales AG', 'manual'),
 ]
 
@@ -327,7 +327,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'oxideshop6', 'OXID eShop 6 Documentation',
+    (master_doc, 'PayPal', 'PayPal module documentation',
      [author], 1)
 ]
 
@@ -342,8 +342,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'OXIDeShop6', 'OXID eShop 6 Documentation',
-     author, 'OXIDeShop6', 'One line description of project.',
+    (master_doc, 'PayPal', 'PayPal module documentation',
+     author, 'PayPal', 'One line description of project.',
      'Miscellaneous'),
 ]
 
