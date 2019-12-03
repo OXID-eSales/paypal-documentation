@@ -130,7 +130,7 @@ html_context = {
     'current_version': '6.0',
     'versions':
         [('5.2', 'https://docs.oxid-esales.com/modules/paypal/en/5.2/'),
-         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/')],
+         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/en/6.0/')],
     'languages':
         [('EN', 'https://docs.oxid-esales.com/modules/paypal/en/6.0/'),
          ('DE', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/')],
