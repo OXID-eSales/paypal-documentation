@@ -22,4 +22,5 @@ Overview of the module functions
 * Amounts of orders paid via PayPal can be captured or refunded. These may be split up in up to 10 partial amounts.
 * An overview of the PayPal transactions is available for each order.
 
-.. Intern: oxdaae, Status:
+
+.. Intern: oxdaaa, Status:
