@@ -1,7 +1,7 @@
 Installation
 ============
 
-In this chapter, the installation of the PayPal module for the OXID eShop versions 6.2 is described.
+In this chapter, the installation of the PayPal module for the OXID eShop version 6.2 is described.
 
 System requirements
 -------------------
@@ -61,4 +61,4 @@ Install the current module using the following Composer command on the command l
 Finish the update installation (like described above) by setting the permissions for the logging, activating the module in the admin panel and by deleting the temporary files.
 
 
-.. Intern: oxdaaf, Status:
+.. Intern: oxdaab, Status:

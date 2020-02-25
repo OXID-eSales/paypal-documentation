@@ -7,7 +7,7 @@ PayPal in the checkout process
 ------------------------------
 With PayPal Basis, PayPal can be selected as payment method during checkout step 3. At this time, the user is already logged in to the shop or shopping without registration.
 
-.. image:: media/screenshots-en/oxdaah01.png
+.. image:: media/screenshots-en/oxdaad01.png
     :alt: Checkout, order step 3
     :class: with-shadow
     :height: 648
@@ -15,7 +15,7 @@ With PayPal Basis, PayPal can be selected as payment method during checkout step
 
 When checking out with PayPal Express, the buyer can complete the purchase from checkout step 1, from checkout step 2 if not yet logged in, the product details page or the mini cart.
 
-.. image:: media/screenshots-en/oxdaah02.png
+.. image:: media/screenshots-en/oxdaad02.png
     :alt: Checkout, order step 1
     :class: with-shadow
     :height: 383
@@ -23,7 +23,7 @@ When checking out with PayPal Express, the buyer can complete the purchase from 
 
 |br|
 
-.. image:: media/screenshots-en/oxdaah03.png
+.. image:: media/screenshots-en/oxdaad03.png
     :alt: Checkout, order step 2
     :class: with-shadow
     :height: 305
@@ -31,7 +31,7 @@ When checking out with PayPal Express, the buyer can complete the purchase from 
 
 |br|
 
-.. image:: media/screenshots-en/oxdaah04.png
+.. image:: media/screenshots-en/oxdaad04.png
     :alt: Product details page with mini cart
     :class: with-shadow
     :height: 352
@@ -42,7 +42,7 @@ In both cases, the user will be directed to the PayPal payment page. According t
 
 .. hint:: If there are products with a fraction of a quantity (e.g. 1,5) in the shopping cart, the shopping cart will not be submitted to PayPal, no matter if the purchaser activated this option during the checkout.
 
-.. image:: media/screenshots-en/oxdaah05.png
+.. image:: media/screenshots-en/oxdaad05.png
     :alt: PayPal payment page
     :class: with-shadow
     :height: 464
@@ -60,7 +60,7 @@ PayPal for orders
 -----------------
 If products have been paid via PayPal, payment information, a PayPal history and an overview of the ordered products will be shown on the :guilabel:`PayPal` tab of the order in the admin panel.
 
-.. image:: media/screenshots-en/oxdaah06.png
+.. image:: media/screenshots-en/oxdaad06.png
     :alt: Orders, "PayPal" tab
     :class: with-shadow
     :height: 325
@@ -78,4 +78,5 @@ In the :guilabel:`PayPal history`, all transactions are shown in a summarize tab
 
 An additional table on the tab gives an overview of all ordered products including quantity, product number, product name, price and VAT.
 
-.. Intern: oxdaah, Status:
+
+.. Intern: oxdaad, Status:
