@@ -63,7 +63,7 @@ author = 'OXID eSales AG'
 # built documents.
 #
 # The short X.Y version.
-version = '5.2'
+version = '5.3'
 # The full version, including alpha/beta/rc tags.
 release = '5'
 
@@ -128,13 +128,15 @@ todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '5.2',
+    'current_version': '5.3',
     'versions':
         [('5.2', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/'),
-         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/')],
-    'languages':
-        [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/'),
-         ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/5.2/')],
+         ('5.3', 'https://docs.oxid-esales.com/modules/paypal/de/5.3/'),
+         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/'),
+         ('6.1', 'https://docs.oxid-esales.com/modules/paypal/de/6.1/')],
+#    'languages':
+#        [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/5.3/'),
+#         ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/5.3/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
@@ -143,7 +145,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'paypal-documentation',
-    'github_version': '5.2-de/'
+    'github_version': '5.3-de/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -258,7 +260,7 @@ html_show_sphinx = False
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'OXIDeShopB2Bdoc'
+htmlhelp_basename = 'PayPal'
 
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
 rst_epilog = """

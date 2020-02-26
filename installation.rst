@@ -12,6 +12,7 @@ Für die Verwendung des Moduls PayPal sind unten stehende Systemvoraussetzungen 
 * OpenSSL
 
 .. |schritt| image:: media/icons/schritt.jpg
+               :class: no-shadow
 
 --------------------------------------------------
 

@@ -18,7 +18,7 @@ Moduleinstellungen
 ------------------
 Gehen Sie im Administrationsbereich des Shops zu :menuselection:`Erweiterungen --> Module` und wählen Sie das Modul PayPal aus. Auf der Registerkarte :guilabel:`Einstell.` kann das Modul konfiguriert werden. Zu den einzelnen Einstellungen lassen sich Hilfetexte aufrufen.
 
-.. image:: media/screenshots-de/oxdaac01.png
+.. image:: media/screenshots/oxdaac01.png
     :alt: PayPal, Moduleinstellungen
     :class: with-shadow
     :height: 344
@@ -28,13 +28,15 @@ Integration von PayPal
 ^^^^^^^^^^^^^^^^^^^^^^
 In diesem Bereich finden Sie einige Einstellungen, wie das Bezahlen mit PayPal in den OXID eShop integriert wird. Mit PayPal Basis wird PayPal am Ende des Bestellprozesses als Zahlungsart angeboten. Wählt der Kunde diese Zahlungsart, bestätigt er auf der PayPal-Zahlungsseite den Kauf und wird anschließend in den Shop zurückgeleitet. PayPal Express bietet die Möglichkeit, dass der Kunde schon im ersten Bestellschritt direkt zur PayPal-Zahlungsseite wechseln kann. Dort bestätigt er den Kauf und gelangt wieder in den Shop zurück. Der Shop übernimmt dabei die für den Kauf relevanten Kundendaten. Auch für den Mini-Warenkorb und die Artikel-Detailseite kann die Schaltfläche für PayPal Express aktiviert werden.
 
+Banner-Einstellungen
+^^^^^^^^^^^^^^^^^^^^
+Im Shop können auf der Startseite, der Detailseite von Artikeln, den Kategorieseiten, in den Suchergebnissen und/oder im Bestellprozess Banner eingeblendet werden, die auf den von PayPal angebotenen Ratenkauf hinweisen. Grundlage der Kommunikation zwischen dem Shop und PayPal ist die so genannte Client-ID, ein alphanumerischer Wert. Dieser ist im PayPal-Konto des Shopbetreibers unter Payer ID oder auch Merchant ID abrufbar und muss in den Moduleinstellungen gespeichert werden. Wurde das Kontrollkästchen "Ratenzahlung-Banner nicht anzeigen" aktiviert, werden die Einstellungen für einzelne Banner ignoriert und die Anzeige der Banner wird komplett unterbunden.
+
+Die Banner können für die jeweiligen Bereiche des Shop-Frontends aktiviert werden. Ihre konkrete Position im für die Ausgabe zuständigen Template wird durch CSS-Selektoren angegeben. Damit können die Banner auch in einem eigenen oder modifizierten Theme verwendet werden. Die Hintergrundfarbe der Banner für die Ratenzahlung kann weiß, blau oder schwarz sein.
+
 Anzeige auf PayPal-Zahlungsseite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Geben Sie hier den Namen des Shops an, der auf der PayPal-Zahlungsseite angezeigt werden soll. Mit einem hexadezimalen Code kann die Warenkorbumrandungsfarbe für die PayPal-Zahlungsseite definiert werden. Diese wird nach dem Schema RRGGBB angegeben. Beispiel: Für einen Rahmen mit einem dunkelblauen Farbverlauf verwenden Sie 000088. Informationen zur hexadezimalen Farbangabe finden Sie beispielsweise auf einer Seite der freien Enzyklopädie Wikipedia: `Hexadezimale Farbdefinition <https://de.wikipedia.org/wiki/Hexadezimale_Farbdefinition>`_.
-
-Eine weitere Einstellung ermöglicht es, ein Logo des Shops anstatt des Namens auf der PayPal-Zahlungsseite anzuzeigen. Die Grafik dafür sollte eine maximale Größe (Breite*Höhe) von 190px*60px haben und im Verzeichnis :file:`/out/{theme}/img` gespeichert sein. Für jedes verwendete Theme muss die Datei im jeweiligen Verzeichnis existieren.
-
-Das Shop-Logo kann das standardmäßig im Shop verwendete sein. Dieses wird mit dem Parameter "sShopLogo" in der Konfigurationsdatei :file:`config.inc.php` definiert. Es kann aber auch ein spezielles Shop-Logo auf der PayPal-Zahlungsseite angezeigt werden, dessen Dateiname hier angegeben wird.
+Geben Sie hier den Namen des Shops an, der auf der PayPal-Zahlungsseite angezeigt werden soll. Eine weitere Einstellung ermöglicht es, ein Logo des Shops anstatt des Namens auf der PayPal-Zahlungsseite anzuzeigen. Die Grafik dafür sollte eine maximale Größe (Breite*Höhe) von 190px*60px haben und im Verzeichnis :file:`/out/{theme}/img` gespeichert sein. Für jedes verwendete Theme muss die Datei im jeweiligen Verzeichnis existieren. Das Shop-Logo kann das standardmäßig im Shop verwendete sein. Dieses wird mit dem Parameter "sShopLogo" in der Konfigurationsdatei :file:`config.inc.php` definiert. Es kann aber auch ein spezielles Shop-Logo auf der PayPal-Zahlungsseite angezeigt werden, dessen Dateiname hier angegeben wird.
 
 Warenkorb auf PayPal-Zahlungsseite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,5 +57,6 @@ Einstellungen für Entwicklung
 Um die Zahlungsart PayPal beim Aufbau des Onlineshops intensiv testen zu können, gibt es die PayPal-Sandbox. Dies ist eine Testumgebung, in welcher der Zahlungsablauf in PayPal simuliert wird. Es werden keine tatsächlichen Zahlungen ausgelöst. Ausführliche Informationen finden Sie auf den englischsprachigen Seiten für PayPal-Entwickler: `PayPal Sandbox Testing Guide <https://developer.paypal.com/docs/classic/lifecycle/ug_sandbox/>`_.
 
 Sollten einmal Probleme auftauchen, kann für eine intensive Fehlersuche das Logging eingeschaltet werden.
+
 
 .. Intern: oxdaac, Status:
