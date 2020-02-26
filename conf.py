@@ -63,7 +63,7 @@ author = 'OXID eSales AG'
 # built documents.
 #
 # The short X.Y version.
-version = '6.0'
+version = '6.1'
 # The full version, including alpha/beta/rc tags.
 release = '6'
 
@@ -131,10 +131,11 @@ html_context = {
     'current_version': '6.0',
     'versions':
         [('5.2', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/'),
-         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/')],
-    'languages':
-        [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/'),
-         ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/6.0/')],
+         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/'),
+         ('6.1', 'https://docs.oxid-esales.com/modules/paypal/de/6.1/')],
+#    'languages':
+#       [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/6.1/'),
+#        ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/6.1/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
