@@ -5,14 +5,14 @@ Mit PayPal Basis lässt sich die Zahlungsart PayPal im Bestellschritt 3 auswähl
 
 .. image:: ../media/screenshots/oxdaae01.png
     :alt: Warenkorb, Bestellschritt 3
-    :height: 715
+    :height: 691
     :width: 650
 
 Bei Bestellung mit PayPal Express kann der Kunde aus dem Bestellschritt 1, aus dem Bestellschritt 2 sofern noch nicht angemeldet, aus einer Artikel-Detailseite oder aus dem Mini-Warenkorb heraus den Einkauf abschließen.
 
 .. image:: ../media/screenshots/oxdaae02.png
     :alt: Warenkorb, Bestellschritt 1
-    :height: 482
+    :height: 458
     :width: 650
 
 |br|
@@ -26,7 +26,7 @@ Bei Bestellung mit PayPal Express kann der Kunde aus dem Bestellschritt 1, aus d
 
 .. image:: ../media/screenshots/oxdaae04.png
     :alt: Artikel-Detailseite mit Mini-Warenkorb
-    :height: 398
+    :height: 397
     :width: 650
 
 |br|
@@ -44,8 +44,8 @@ Der Shop leitet den Benutzer jeweils zur PayPal-Zahlungsseite. Je nach Konfigura
 
 .. image:: ../media/screenshots/oxdaae06.png
     :alt: PayPal-Zahlungsseite
-    :height: 629
-    :width: 650
+    :height: 626
+    :width: 647
 
 Der Kunde kann sich nun an sein PayPal-Konto anmelden oder ein neues erstellen. Nach Bestätigung der Zahlung wird der Kunde zurück zum Shop geleitet. Im Falle des Express-Kaufs werden dabei auch die Kundendaten aus dem PayPal-Konto an den Shop übergeben. Damit entfällt das Ausfüllen des Formulars im Bestellschritt 2. Da auch die Versandart auf der PayPal-Zahlungsseite gewählt werden kann, wird direkt Bestellschritt 4 aufgerufen.
 

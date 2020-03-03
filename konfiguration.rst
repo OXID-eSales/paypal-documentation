@@ -24,15 +24,15 @@ Gehen Sie im Administrationsbereich des Shops zu :menuselection:`Erweiterungen -
     :height: 344
     :width: 650
 
+Banner-Einstellungen
+^^^^^^^^^^^^^^^^^^^^
+Im Shop können auf der Startseite, der Detailseite von Artikeln, den Kategorieseiten, in den Suchergebnissen und/oder im Bestellprozess Banner eingeblendet werden, die auf die von PayPal angebotenen Ratenzahlung hinweisen. Grundlage der Kommunikation zwischen dem Shop und PayPal ist die so genannte Client-ID, ein alphanumerischer Wert. Dieser ist im PayPal-Konto des Shopbetreibers unter Payer ID oder auch Merchant ID abrufbar und muss in den Moduleinstellungen gespeichert werden. Wurde das Kontrollkästchen :guilabel:`Ratenzahlung-Banner nicht anzeigen` aktiviert, werden die Einstellungen für einzelne Banner ignoriert und die Anzeige der Banner wird komplett unterbunden.
+
+Die Banner können für die jeweiligen Bereiche des Shop-Frontends aktiviert werden. Ihre konkrete Position im für die Ausgabe zuständigen Template wird durch CSS-Selektoren angegeben. Damit können die Banner auch in einem eigenen oder modifizierten Theme verwendet werden. Die Hintergrundfarbe der Banner für die Ratenzahlung kann weiß, blau oder schwarz sein.
+
 Integration von PayPal
 ^^^^^^^^^^^^^^^^^^^^^^
 In diesem Bereich finden Sie einige Einstellungen, wie das Bezahlen mit PayPal in den OXID eShop integriert wird. Mit PayPal Basis wird PayPal am Ende des Bestellprozesses als Zahlungsart angeboten. Wählt der Kunde diese Zahlungsart, bestätigt er auf der PayPal-Zahlungsseite den Kauf und wird anschließend in den Shop zurückgeleitet. PayPal Express bietet die Möglichkeit, dass der Kunde schon im ersten Bestellschritt direkt zur PayPal-Zahlungsseite wechseln kann. Dort bestätigt er den Kauf und gelangt wieder in den Shop zurück. Der Shop übernimmt dabei die für den Kauf relevanten Kundendaten. Auch für den Mini-Warenkorb und die Artikel-Detailseite kann die Schaltfläche für PayPal Express aktiviert werden.
-
-Banner-Einstellungen
-^^^^^^^^^^^^^^^^^^^^
-Im Shop können auf der Startseite, der Detailseite von Artikeln, den Kategorieseiten, in den Suchergebnissen und/oder im Bestellprozess Banner eingeblendet werden, die auf den von PayPal angebotenen Ratenkauf hinweisen. Grundlage der Kommunikation zwischen dem Shop und PayPal ist die so genannte Client-ID, ein alphanumerischer Wert. Dieser ist im PayPal-Konto des Shopbetreibers unter Payer ID oder auch Merchant ID abrufbar und muss in den Moduleinstellungen gespeichert werden. Wurde das Kontrollkästchen "Ratenzahlung-Banner nicht anzeigen" aktiviert, werden die Einstellungen für einzelne Banner ignoriert und die Anzeige der Banner wird komplett unterbunden.
-
-Die Banner können für die jeweiligen Bereiche des Shop-Frontends aktiviert werden. Ihre konkrete Position im für die Ausgabe zuständigen Template wird durch CSS-Selektoren angegeben. Damit können die Banner auch in einem eigenen oder modifizierten Theme verwendet werden. Die Hintergrundfarbe der Banner für die Ratenzahlung kann weiß, blau oder schwarz sein.
 
 Anzeige auf PayPal-Zahlungsseite
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
