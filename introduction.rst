@@ -23,4 +23,4 @@ Overview of the module functions
 * An overview of the PayPal transactions is available for each order.
 
 
-.. Intern: oxdaaa, Status:
+.. Intern: oxdaaa, Status: transL

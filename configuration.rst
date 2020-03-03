@@ -18,7 +18,7 @@ Module settings
 ---------------
 Go to :menuselection:`Extensions --> Modules` in the admin panel of the shop and select the PayPal module. In the :guilabel:`Settings` tab, the module can be configured. Help texts are available for the individual settings.
 
-.. image:: media/screenshots-en/oxdaac01.png
+.. image:: media/screenshots/oxdaac01.png
     :alt: PayPal, module settings
     :class: with-shadow
     :height: 344
@@ -57,4 +57,4 @@ The PayPal Sandbox allows intensive testing of the PayPal payment when building 
 In case of problems, PayPal logging can be activated for extensive troubleshooting.
 
 
-.. Intern: oxdaac, Status:
+.. Intern: oxdaac, Status: transL
