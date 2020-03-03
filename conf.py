@@ -134,9 +134,9 @@ html_context = {
          ('5.3', 'https://docs.oxid-esales.com/modules/paypal/de/5.3/'),
          ('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/'),
          ('6.1', 'https://docs.oxid-esales.com/modules/paypal/de/6.1/')],
-#    'languages':
-#        [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/5.3/'),
-#         ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/5.3/')],
+    'languages':
+        [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/5.3/'),
+         ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/5.3/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
