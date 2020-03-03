@@ -18,7 +18,7 @@ Module settings
 ---------------
 Go to :menuselection:`Extensions --> Modules` in the admin panel of the shop and select the PayPal module. In the :guilabel:`Settings` tab, the module can be configured. Help texts are available for the individual settings.
 
-.. image:: media/screenshots-en/oxdaac01.png
+.. image:: media/screenshots/oxdaac01.png
     :alt: PayPal, module settings
     :class: with-shadow
     :height: 344
