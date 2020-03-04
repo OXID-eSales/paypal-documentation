@@ -5,7 +5,7 @@ In order to enable PayPal payment for customers in the OXID eShop, the related p
 
 Setting up PayPal payment method
 --------------------------------
-You can configure the payment method according to your needs. Detailed information can be found in the OXID eShop user documentation: `Zahlungsarten <https://docs.oxid-esales.com/eshop/de/6.0/einrichtung/zahlungsarten/zahlungsarten.html>`_ (German language only). Change if necessary the :guilabel:`Purchase Price (€)` to 0 in the :guilabel:`from` field and 10000 in the :guilabel:`to` field.
+You can configure the payment method according to your needs. Detailed information can be found in the OXID eShop user documentation: `Payment methods <https://docs.oxid-esales.com/eshop/en/6.1/setup/payment-methods/index.html>`_. Change if necessary the :guilabel:`Purchase Price (€)` to 0 in the :guilabel:`from` field and 10000 in the :guilabel:`to` field.
 
 With a standard installation of the shop, PayPal can be set up in only two steps.
 
@@ -24,15 +24,19 @@ Go to :menuselection:`Extensions --> Modules` in the admin panel of the shop and
     :height: 344
     :width: 650
 
+Banner settings
+^^^^^^^^^^^^^^^
+In the shop, banners can be displayed on the start page, the details page of products, the category pages, in the search results and/or in the order process, which refer to the installment offered by PayPal. Basis of the communication between the shop and PayPal is the so-called Client ID, an alphanumeric value. It is available in the PayPal account of the shop owner under Payer ID or Merchant ID and must be saved in the module settings. If the checkbox :guilabel:`Do not show installment banners` was activated, the settings for individual banners are ignored and the display of the banners is completely prevented.
+
+The banners can be activated for the respective areas of the shop front end. Their concrete position in the template responsible for the output is specified by CSS selectors. This allows the banners to be used in your own or a modified theme. The background colour of the banners for payment by installments can be white, blue or black.
+
 PayPal integration
 ^^^^^^^^^^^^^^^^^^
 In this section you can find several settings for integrating the PayPal payment into the OXID eShop. With PayPal Basis activated, the PayPal payment method will be offered at the end of the checkout process. If the customer selects this payment method, he confirms the purchase on the PayPal payment page and will be subsequently redirected to the shop. PayPal Express allows the customer to go directly to the PayPal payment page in the first step of the checkout flow. There, the buyer confirms the purchase and will then be redirected to the shop. The shop receives all customer information relevant for the purchase from PayPal. The PayPal Express button can also be enabled for the mini cart and the product details page.
 
 Display on PayPal payment page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Enter here the name of the shop to appear on the PayPal payment page. By entering the hexadecimal code, you can define the cart area gradient color on the PayPal payment page. It is set according to the RRGGBB model. Example: For the cart area color "darkblue", enter 000088. Information on the hexadecimal color code can be found at a page of the free encyclopedia Wikipedia: `Web colors <http://en.wikipedia.org/wiki/Hexadecimal_color>`_.
-
-Another setting allows the display of the shop logo instead of its name on the PayPal payment page. The image should have a maximum size of 190x60 px (width x height) and be located in the :file:`/out/{theme}/img` folder. For each theme used, the relevant file has to be in the corresponding folder.
+Enter here the name of the shop to appear on the PayPal payment page. Another setting allows the display of the shop logo instead of its name on the PayPal payment page. The image should have a maximum size of 190x60 px (width x height) and be located in the :file:`/out/{theme}/img` folder. For each theme used, the relevant file has to be in the corresponding folder.
 
 The shop logo can be the standard logo used for the shop. It is defined in the :file:`config.inc.php` configuration file by the "sShopLogo" parameter. However, you may also have a custom shop logo displayed on the PayPal payment page, the file name of which is to be entered here.
 
