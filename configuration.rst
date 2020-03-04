@@ -5,7 +5,7 @@ In order to enable PayPal payment for customers in the OXID eShop, the related p
 
 Setting up PayPal payment method
 --------------------------------
-You can configure the payment method according to your needs. Detailed information can be found in the OXID eShop user documentation: `Zahlungsarten <https://docs.oxid-esales.com/eshop/de/6.0/einrichtung/zahlungsarten/zahlungsarten.html>`_ (German language only). Change if necessary the :guilabel:`Purchase Price (€)` to 0 in the :guilabel:`from` field and 10000 in the :guilabel:`to` field.
+You can configure the payment method according to your needs. Detailed information can be found in the OXID eShop user documentation: `Payment methods <https://docs.oxid-esales.com/eshop/en/6.1/setup/payment-methods/index.html>`_. Change if necessary the :guilabel:`Purchase Price (€)` to 0 in the :guilabel:`from` field and 10000 in the :guilabel:`to` field.
 
 With a standard installation of the shop, PayPal can be set up in only two steps.
 
