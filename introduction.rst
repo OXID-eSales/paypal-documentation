@@ -15,12 +15,12 @@ Overview of the module functions
 * The PayPal payment method can be configured for each shop thus allowing different settings for individual subshops when using the Enterprise Edition.
 * PayPal payment method is offered during the checkout process.
 * PayPal express checkout can be used from the shopping cart, mini cart and product detail page.
+* PayPal installment is available for customers from Germany and is provided by PayPal as financing for order values from 199 € to 5,000 €. In the shop, this payment option can be advertised by displaying banners on the start page, the details page of products, the category pages, in the search results and/or in the order process. The display and its exact position in the frontend can be configured in the module settings.
 * On the PayPal payment page, the shop name or logo can be displayed.
 * The contents of the shopping cart can be transferred to the PayPal payment page.
-* The PayPal payment page can be customized in terms of cart area color.
 * The time of money transfer can be set. You can choose between an immediate capture of the invoice amount, a later capture shortly before or after the shipping of the products and the automatic selection between these two methods depending on the remaining stock defined.
 * Amounts of orders paid via PayPal can be captured or refunded. These may be split up in up to 10 partial amounts.
 * An overview of the PayPal transactions is available for each order.
 
 
-.. Intern: oxdaaa, Status:
+.. Intern: oxdaaa, Status: transL
