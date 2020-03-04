@@ -7,7 +7,7 @@ Systemvoraussetzungen
 ---------------------
 Für die Verwendung des Moduls PayPal sind unten stehende Systemvoraussetzungen notwendig. Darüber hinaus funktioniert das Modul PayPal nur, wenn der OXID eShop für den SSL-Modus konfiguriert wurde.
 
-* PHP Versionen 7.0, 7.1 und 7.2
+* PHP Versionen 7.1 bis 7.4
 * URL
 * OpenSSL
 
