@@ -131,7 +131,9 @@ html_context = {
     'current_version': '5.2',
     'versions':
         [('5.2', 'https://docs.oxid-esales.com/modules/paypal/en/5.2/'),
-         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/en/6.0/')],
+         ('5.3', 'https://docs.oxid-esales.com/modules/paypal/en/5.3/'),
+         ('6.0', 'https://docs.oxid-esales.com/modules/paypal/en/6.0/'),
+         ('6.1', 'https://docs.oxid-esales.com/modules/paypal/en/6.1/')],
     'languages':
         [('EN', 'https://docs.oxid-esales.com/modules/paypal/en/5.2/'),
          ('DE', 'https://docs.oxid-esales.com/modules/paypal/de/5.2/')],
