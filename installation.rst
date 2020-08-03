@@ -26,7 +26,7 @@ Für den Fall, dass das Modul manuell in den Shop integriert werden muss, wird d
 
 .. code:: bash
 
-  composer require --update-no-dev oxid-esales/paypal-module:^6.0.0
+  composer require --update-no-dev oxid-esales/paypal-module:^6.1.0
 
 |schritt| Berechtigung für das Logging setzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,7 +55,7 @@ Installieren Sie das aktuelle Modul mit folgendem Composer-Kommando, welches Sie
 
 .. code:: bash
 
-  composer require --update-no-dev  oxid-esales/paypal-module:^6.0.0
+  composer require --update-no-dev  oxid-esales/paypal-module:^6.1.0
 
 |schritt| Update abschließen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
