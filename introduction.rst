@@ -21,6 +21,6 @@ Overview of the module functions
 * The time of money transfer can be set. You can choose between an immediate capture of the invoice amount, a later capture shortly before or after the shipping of the products and the automatic selection between these two methods depending on the remaining stock defined.
 * Amounts of orders paid via PayPal can be captured or refunded. These may be split up in up to 10 partial amounts.
 * An overview of the PayPal transactions is available for each order.
-
+* The PayPal payment method can be integrated into the OXID eShop GraphQL-API.
 
 .. Intern: oxdaaa, Status: transL
