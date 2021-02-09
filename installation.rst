@@ -27,7 +27,8 @@ In case that the module has to be manually integrated into the shop, it has to b
 
   composer require --update-no-dev oxid-esales/paypal-module:^6.3.0
 
-If the OXID GraphQL storefront module is installed, it is possible to use PayPal as a payment method via the Graphql API.
+If the `OXID eSales GraphQL Storefront Module <https://github.com/OXID-eSales/graphql-storefront-module>`__
+is installed, it is possible to use PayPal as a payment method via the Graphql API.
 
 .. code:: bash
 
@@ -42,8 +43,8 @@ Change the permission of :file:`/modules/oe/oepaypal/logs`. Grant full write per
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The PayPal module has to be activated in the shop. In the :guilabel:`Overview` tab of the module, click the :guilabel:`Activate` button.
 
-In case the PayPal payment method will be used via the GraphQL API, please first ensure that the Graphql Storefront module is
-properly activated.
+In case the PayPal payment method will be used via the GraphQL API, please first ensure that the `OXID eSales GraphQL Storefront Module <https://github.com/OXID-eSales/graphql-storefront-module>`__
+is properly activated.
 
 |step| Deleting temporary files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
