@@ -12,9 +12,11 @@ is created. This is based on the information the shop gets from PayPal.
 Of course, the user can also be logged in to the OXID eShop when placing an order with PayPal Express.
 We need to cover both possibilities when checking out with PayPal via the GraphQL API.
 
-As the  OXID GraphQL API does not use a session, the way to identify a user is via his GraohQL JWT token.
-An anonymus user needs to get an anonymous token to be able to prepare a basket.
+As the OXID GraphQL API does not use a session, the way to identify a user is via his GraphQL JWT token.
+An anonymous user needs to get an anonymous token to be able to prepare a basket.
 
+.. important::
+   A basket is related to the token used during basket creation. Only user with the specific token can operate with the basket. If for some reason anonymous user creates a basket and then logs in to continue with the checkout process, he wont be able to operate with the basket as he received new token.
 
 PayPal Express checkout workflow via GraphQL API
 ------------------------------------------------
