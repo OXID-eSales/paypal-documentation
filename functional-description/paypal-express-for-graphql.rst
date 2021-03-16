@@ -1,7 +1,7 @@
 PayPal Express for GraphQL
 ==========================
 
-The PayPal Express payment method can be used via the OXID Grapqhl API. Requirement is that the
+The PayPal Express payment method can be used via the OXID GraphQL API. Requirement is that the
 `OXID eSales GraphQL Storefront Module <https://github.com/OXID-eSales/graphql-storefront-module>`__,
 is installed and activated along side the PayPal module.
 
