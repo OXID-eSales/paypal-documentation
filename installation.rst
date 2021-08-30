@@ -1,13 +1,13 @@
 Installation
 ============
 
-Dieses Dokument beschreibt die Installation des Moduls PayPal für den OXID eShop Version 6.2.
+Dieses Dokument beschreibt die Installation des Moduls PayPal für den OXID eShop Version 6.3.
 
 Systemvoraussetzungen
 ---------------------
 Für die Verwendung des Moduls PayPal sind unten stehende Systemvoraussetzungen notwendig. Darüber hinaus funktioniert das Modul PayPal nur, wenn der OXID eShop für den SSL-Modus konfiguriert wurde.
 
-* PHP Versionen 7.1 bis 7.4
+* PHP Versionen 7 und 8, ab 7.1 und 8.0
 * URL
 * OpenSSL
 
@@ -26,7 +26,7 @@ Für den Fall, dass das Modul manuell in den Shop integriert werden muss, wird d
 
 .. code:: bash
 
-  composer require --update-no-dev oxid-esales/paypal-module:^6.2.0
+  composer require --update-no-dev oxid-esales/paypal-module:^6.3.0
 
 |schritt| Berechtigung für das Logging setzen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,7 +55,7 @@ Installieren Sie das aktuelle Modul mit folgendem Composer-Kommando, welches Sie
 
 .. code:: bash
 
-  composer require --update-no-dev  oxid-esales/paypal-module:^6.2.0
+  composer require --update-no-dev  oxid-esales/paypal-module:^6.3.0
 
 |schritt| Update abschließen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

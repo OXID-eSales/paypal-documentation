@@ -65,7 +65,7 @@ author = 'OXID eSales AG'
 # built documents.
 #
 # The short X.Y version.
-version = '6.2'
+version = '6.3'
 # The full version, including alpha/beta/rc tags.
 release = '6'
 
@@ -130,14 +130,16 @@ todo_include_todos = True
 html_theme = 'sphinx_rtd_theme'
 
 html_context = {
-    'current_version': '6.2',
+    'current_version': '6.3',
     'versions':
         [('6.0', 'https://docs.oxid-esales.com/modules/paypal/de/6.0/'),
          ('6.1', 'https://docs.oxid-esales.com/modules/paypal/de/6.1/'),
-         ('6.2', 'https://docs.oxid-esales.com/modules/paypal/de/6.2/')],
+         ('6.2', 'https://docs.oxid-esales.com/modules/paypal/de/6.2/'),
+         ('6.3', 'https://docs.oxid-esales.com/modules/paypal/de/6.3/')],
     'languages':
        [('DE', 'https://docs.oxid-esales.com/modules/paypal/de/6.2/'),
-        ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/6.2/')],
+        ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/6.2/'),
+        ('EN', 'https://docs.oxid-esales.com/modules/paypal/en/6.3/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
@@ -146,7 +148,7 @@ html_context = {
     # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
     'github_user': 'OXID-eSales',
     'github_repo': 'paypal-documentation',
-    'github_version': '6.2-de/'
+    'github_version': '6.3-de/'
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
