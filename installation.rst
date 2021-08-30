@@ -11,7 +11,8 @@ The system requirements given below apply to the PayPal module. In addition, the
 * cURL
 * OpenSSL
 
-.. |step| image:: media/icons/schritt.jpg
+.. |schritt| image:: media/icons/schritt.jpg
+               :class: no-shadow
 
 --------------------------------------------------
 
