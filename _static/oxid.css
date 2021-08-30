@@ -47,8 +47,3 @@ code, .rst-content code{
 .with-shadow {
     box-shadow: 0 4px 10px #bababa;
 }
-
-/* Scrollen beim Umschalten von Version und Sprache nur wenn notwendig */
-.rst-versions.shift-up {
-    overflow-y: auto;
-}
