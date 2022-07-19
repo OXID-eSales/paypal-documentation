@@ -9,7 +9,7 @@ Module documentation
    Installation <installation>
    Configuration <configuration>
    Functional description <functional-description/index>
-   Changelog (GitHub) ➜ <https://github.com/OXID-eSales/paypal/blob/v6.4.0/CHANGELOG.md>
+   Changelog (GitHub) ➜ <https://github.com/OXID-eSales/paypal/blob/v6.5.0/CHANGELOG.md>
 
 .. image:: media/icons/home.png
    :width: 0 px
