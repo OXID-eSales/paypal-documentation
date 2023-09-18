@@ -1,6 +1,14 @@
 Module documentation
 ====================
 
+.. note::
+
+   **New payment module PayPal Checkout**
+
+   For payments with PayPal, our new module PayPal Checkout is available with more scope.
+
+   To find out which benefits you have, see the PayPal Checkout documentation under https://docs.oxid-esales.com/modules/paypal-checkout/en/latest/introduction.html.
+
 .. toctree::
    :maxdepth: 1
    :caption: PayPal
