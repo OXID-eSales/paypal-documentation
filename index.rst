@@ -1,11 +1,20 @@
 Moduldokumentation
 ==================
 
+.. note::
+
+   **Neues Zahlungsmodul PayPal Checkout**
+
+   Für Zahlungen mit PayPal steht Ihnen unser neues Modul PayPal Checkout mit mehr Umfang zur Verfügung.
+
+   Welche Vorteile Sie haben, erfahren Sie in der PayPal Checkout-Dokumentation unter https://docs.oxid-esales.com/modules/paypal-checkout/de/latest/einfuehrung.html.
+
+
 .. toctree::
    :maxdepth: 1
    :caption: PayPal
 
-   Einführung <einfuehrung>
+      Einführung <einfuehrung>
    Installation <installation>
    Konfiguration <konfiguration>
    Funktionsbeschreibung <funktionsbeschreibung/index>
